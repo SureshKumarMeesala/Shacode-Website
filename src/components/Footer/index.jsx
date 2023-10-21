@@ -60,7 +60,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <ContactInfoWidget title='Contact Us'/>
+                <ContactInfoWidget title='Contact Me'/>
               </Div>
             </Div>
             <Div className="col-lg-3 col-sm-6">

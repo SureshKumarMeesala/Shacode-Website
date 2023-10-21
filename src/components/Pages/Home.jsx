@@ -11,7 +11,7 @@ import Cta from '../Cta';
 import PortfolioSlider from '../Slider/PortfolioSlider';
 // import PostSlider from '../Slider/PostSlider';
 import TestimonialSlider from '../Slider/TestimonialSlider';
-import TeamSlider from '../Slider/TeamSlider';
+// import TeamSlider from '../Slider/TeamSlider';
 // import VideoModal from '../VideoModal';
 import TimelineSlider from '../Slider/TimelineSlider';
 import { pageTitle } from '../../helper';
@@ -209,7 +209,7 @@ export default function Home() {
 
       {/* Start Team Section */}
       <Spacing lg="145" md="80" />
-      <Div className="container">
+      {/* <Div className="container">
         <SectionHeading
           title="Awesome team <br/>members"
           subtitle="Our Team"
@@ -218,7 +218,7 @@ export default function Home() {
         <Spacing lg="85" md="45" />
         <TeamSlider />
       </Div>
-      <Spacing lg="150" md="80" />
+      <Spacing lg="150" md="80" /> */}
       {/* End Team Section */}
 
       {/* Start Testimonial Section */}

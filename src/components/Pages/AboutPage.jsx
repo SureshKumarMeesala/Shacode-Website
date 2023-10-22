@@ -5,30 +5,33 @@ import FunFact from '../FunFact';
 import PageHeading from '../PageHeading';
 import Div from '../Div';
 import SectionHeading from '../SectionHeading';
-import TeamSlider from '../Slider/TeamSlider';
+// import TeamSlider from '../Slider/TeamSlider';
 import Spacing from '../Spacing';
 
 export default function AboutPage() {
   pageTitle('About');
 
+  // FunFact Data
   const funfaceData = [
     {
-      title: 'Global Happy Clients',
-      factNumber: '40K',
+      title: 'Websites Completed',
+      factNumber: '150',
     },
     {
       title: 'Project Completed',
-      factNumber: '50K',
+      factNumber: '20',
     },
     {
-      title: 'Team Members',
-      factNumber: '245',
+      title: 'React Projects',
+      factNumber: '15',
     },
     {
-      title: 'Digital products',
-      factNumber: '550',
+      title: 'Digital Marketing',
+      factNumber: '30',
     },
   ];
+
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -49,15 +52,12 @@ export default function AboutPage() {
           <Div className="col-xl-5 col-lg-7">
             <SectionHeading
               title="Your trusted partner for business"
-              subtitle="About Our Agency"
+              subtitle="About Shacode"
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+              Shacode, we're more than just a service provider; we're your trusted partner in achieving digital excellence. With a proven track record in web development, on-page SEO, and digital marketing, we're dedicated to your success.
+              Our commitment to delivering exceptional online solutions is unwavering. Join forces with Shacode, and let us help you realize your digital potential.
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -96,8 +96,8 @@ export default function AboutPage() {
       {/* Start Fun Fact Section */}
       <Div className="container">
         <FunFact
-          title="Our fun fact"
-          subtitle="Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+          title="My fun fact"
+          subtitle="Successfully completed and launched over 50 projects in my 5-year web development journey. That's more websites than I have fingers to count!"
           data={funfaceData}
         />
       </Div>
@@ -121,23 +121,16 @@ export default function AboutPage() {
           </Div>
           <Div className="col-xl-5 offset-xl-1 col-lg-6">
             <SectionHeading
-              title="Highly experienced pepole with us"
-              subtitle="Why Choose Us"
+              title="Elevate Your Digital Journey with Shacode"
+              subtitle="Why Choose Shacode"
             >
               <Spacing lg="30" md="20" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining. Through our years of experience, we’ve also learned
-                that while each channel.
+                 Shacode, we're your ultimate choice for web development, on-page SEO, and digital marketing services. We stand out in the digital landscape as your dedicated partner in achieving online success. With a wealth of experience spanning over five years, we've honed our skills to create engaging websites, optimize online visibility, and implement effective digital marketing strategies.
               </p>
               <Spacing lg="15" md="15" />
               <p className="cs-m0">
-                This is the main factor that sets us apart from our competition
-                and allows us to deliver a specialist business consultancy
-                service. Our team applies its wide-ranging experience to
-                determining.
+                  Our passion is to blend technology with spiritual essence, and our name reflects our unique approach, inspired by Lord Lakshmi and Lord Durga. We're committed to delivering results that go beyond expectations. Choose Shacode, and embark on a journey of digital transformation, where creativity and expertise converge to set your business apart.  
               </p>
               <Spacing lg="30" md="30" />
               <Div className="cs-separator cs-accent_bg"></Div>
@@ -149,7 +142,7 @@ export default function AboutPage() {
       {/* End Why Choose Section */}
 
       {/* Start Team Section */}
-      <Spacing lg="145" md="80" />
+      {/* <Spacing lg="145" md="80" />
       <Div className="container">
         <SectionHeading
           title="Awesome team <br/>members"
@@ -158,7 +151,7 @@ export default function AboutPage() {
         />
         <Spacing lg="85" md="45" />
         <TeamSlider />
-      </Div>
+      </Div> */}
       {/* End Team Section */}
 
       {/* Start CTA Section */}

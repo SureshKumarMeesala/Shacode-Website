@@ -17,3 +17,16 @@ img.Footer-Logo {
     margin: -20px 0px 20px;
 }
 
+.Hubspot-Form {
+    background-color: #ffffff;
+    padding: 30px !important;
+    margin-top: -40px !important;
+    border-radius: 10px;
+}
+
+
+
+ .hs-button {
+    white-space: pre-wrap;
+    background: red !important;
+}

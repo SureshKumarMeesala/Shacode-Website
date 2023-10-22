@@ -65,11 +65,7 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
             </Div>
             <Div className="col-lg-3 col-sm-6">
               <Div className="cs-footer_item">
-                <Newsletter 
-                  title='Subscribe' 
-                  subtitle='Subscribe to our newsletter and stay in the loop! Join our digital community to receive updates on the latest web development trends, on-page SEO techniques, and digital marketing strategies. ' 
-                  placeholder='example@gmail.com'
-                />
+                <Newsletter />
               </Div>
             </Div>
           </Div>

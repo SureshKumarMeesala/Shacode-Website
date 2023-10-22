@@ -6,7 +6,7 @@ import ContactPage from './components/Pages/ContactPage';
 import ErrorPage from './components/Pages/ErrorPage';
 import Home from './components/Pages/Home';
 import PortfolioDetailsPage from './components/Pages/PortfolioDetailsPage';
-import ServiceDetailsPage from './components/Pages/ServiceDetailsPage';
+// import ServiceDetailsPage from './components/Pages/ServiceDetailsPage';
 import ServicesPage from './components/Pages/ServicesPage';
 import TeamPage from './components/Pages/TeamPage';
 import PortfolioPage from './components/Pages/PortfolioPage';
@@ -20,6 +20,11 @@ import CaseStudyShowcaseHome from './components/Pages/CaseStudyShowcaseHome';
 import Layout from './components/Layout';
 import CaseStudyDetailsPage from './components/Pages/CaseStudyDetailsPage';
 import FaqPage from './components/Pages/FaqPage';
+
+import ServiceDetailsPageReactjs from './components/Pages/ServiceDetailsPageReactjs';
+import ServiceDetailsPageUiuxDevelopment from './components/Pages/ServiceDetailsPageUiuxDevelopment';
+import ServiceDetailsPageWordpress from './components/Pages/ServiceDetailsPageWordpress';
+import ServiceDetailsPageDigitalMarketing from './components/Pages/ServiceDetailsPageDigitalMarketing';
 
 import './ShaCode.css';
 
@@ -38,8 +43,20 @@ function App() {
           <Route path="about" element={<AboutPage />} />
           <Route path="service" element={<ServicesPage />} />
           <Route
-            path="service/:serviceDetailsId"
-            element={<ServiceDetailsPage />}
+            path="servi:uiuxDevelopmentId"
+            element={<ServiceDetailsPageUiuxDevelopment />}
+          />
+          <Route
+            path="service/:reactJsId"
+            element={<ServiceDetailsPageReactjs />}
+          />
+          <Route
+            path="service/:wordPressDevelopmentId"
+            element={<ServiceDetailsPageWordpress />}
+          />
+          <Route
+            path="service/:digitalMarketingId"
+            element={<ServiceDetailsPageDigitalMarketing />}
           />
           <Route path="portfolio" element={<PortfolioPage />} />
           <Route
@@ -56,11 +73,11 @@ function App() {
             element={<CaseStudyDetailsPage />}
           />
           <Route path="faq" element={<FaqPage />} />
-        </Route>
-        <Route
-          path="/"
-          element={<Layout headerVariant="cs-site_header_full_width" />}
-        >
+          </Route>
+          <Route
+            path="/"
+            element={<Layout headerVariant="cs-site_header_full_width" />}
+          >
           <Route
             path="creative-portfolio"
             element={<CreativePortfolioHome />}

@@ -137,6 +137,38 @@ export default function Header({ variant }) {
                               Service Details
                             </Link>
                           </li>
+                          <li>
+                            <Link
+                              to="/service/ui-ux-development"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              UI / UX Development
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/service/react-js"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              React Js
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/service/digital-marketing"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Digital Marketing
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              to="/service/wordpress-development"
+                              onClick={() => setMobileToggle(false)}
+                            >
+                              Wordpress Development 
+                            </Link>
+                          </li>
                         </ul>
                       </DropDown>
                     </li>
@@ -291,7 +323,7 @@ export default function Header({ variant }) {
         <Div className="cs-side_header_in">
           <Div className="cs-side_header_shape" />
           <Link className="cs-site_branding" to="/">
-            <img src="/images/footer_logo.svg" alt="Logo" />
+            <img src="/images/footer_logo.png" alt="Logo" />
           </Link>
           <Div className="cs-side_header_box">
             <h2 className="cs-side_header_heading">

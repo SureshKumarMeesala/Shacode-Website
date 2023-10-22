@@ -3,7 +3,7 @@ import { pageTitle } from '../../helper'
 import Card from '../Card'
 import Cta from '../Cta'
 import PageHeading from '../PageHeading'
-import PricingTableList from '../PricingTable/PricingTableList'
+// import PricingTableList from '../PricingTable/PricingTableList'
 import Div from '../Div'
 import SectionHeading from '../SectionHeading'
 import TestimonialSlider from '../Slider/TestimonialSlider'
@@ -39,7 +39,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='UI/UX design'
+                    title='UI/UX Development'
                     link='/service/ui-ux-design'
                     src='/images/service_1.jpeg'
                     alt='Service'
@@ -49,7 +49,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='React.js Development'
+                    title='React.js UI Development'
                     link='/service/reactjs-development'
                     src='/images/service_2.jpeg'
                     alt='Service'
@@ -68,7 +68,7 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
                   <Card
-                    title='Technology'
+                    title='Wordpress Development'
                     link='/service/technology'
                     src='/images/service_4.jpeg'
                     alt='Service'
@@ -78,22 +78,22 @@ export default function ServicesPage() {
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
-                  <Card
+                  {/* <Card
                     title='Consultancy'
                     link='/service/consultancy'
                     src='/images/service_5.jpeg'
                     alt='Service'
-                  />
+                  /> */}
                   <Spacing lg='0' md='30'/>
                 </Div>
                 <Div className='col-lg-3 col-sm-6 cs-hidden_mobile'></Div>
                 <Div className='col-lg-3 col-sm-6'>
-                  <Card
+                  {/* <Card
                     title='Creative Design'
                     link='/service/creative-design'
                     src='/images/service_6.jpeg'
                     alt='Service'
-                  />
+                  /> */}
                   <Spacing lg='0' md='30'/>
                 </Div>
               </Div>
@@ -102,14 +102,14 @@ export default function ServicesPage() {
         </Div>
       </Div>
       <Spacing lg='150' md='80'/>
-      <Div className="container">
+      {/* <Div className="container">
         <SectionHeading
           title='Providing best <br/>pricing for client' 
           subtitle='Pricing & Packaging'
         />
         <Spacing lg='85' md='40'/>
         <PricingTableList/>
-      </Div>
+      </Div> */}
       <Spacing lg='125' md='55'/>
       <TestimonialSlider/>
       <Spacing lg='150' md='80'/>

@@ -1,4 +1,4 @@
-import { Icon } from '@iconify/react';
+// import { Icon } from '@iconify/react';
 import React, { useEffect } from 'react';
 import { pageTitle } from '../../helper';
 import Div from '../Div';
@@ -6,6 +6,11 @@ import PageHeading from '../PageHeading';
 import SectionHeading from '../SectionHeading';
 import Spacing from '../Spacing';
 import ContactInfoWidget from '../Widget/ContactInfoWidget';
+
+import HubspotForm from 'react-hubspot-form'
+
+
+
 
 export default function ContactPage() {
   pageTitle('Contact Us');
@@ -31,44 +36,18 @@ export default function ContactPage() {
             <ContactInfoWidget withIcon />
             <Spacing lg="0" md="50" />
           </Div>
-          <Div className="col-lg-6">
-            <form action="#" className="row">
-              <Div className="col-sm-6">
-                <label className="cs-primary_color">Full Name*</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-6">
-                <label className="cs-primary_color">Email*</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-6">
-                <label className="cs-primary_color">Project Type*</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-6">
-                <label className="cs-primary_color">Mobile*</label>
-                <input type="text" className="cs-form_field" />
-                <Spacing lg="20" md="20" />
-              </Div>
-              <Div className="col-sm-12">
-                <label className="cs-primary_color">Mobile*</label>
-                <textarea
-                  cols="30"
-                  rows="7"
-                  className="cs-form_field"
-                ></textarea>
-                <Spacing lg="25" md="25" />
-              </Div>
-              <Div className="col-sm-12">
-                <button className="cs-btn cs-style1">
-                  <span>Send Message</span>
-                  <Icon icon="bi:arrow-right" />
-                </button>
-              </Div>
-            </form>
+          <Div className="col-lg-6 Hubspot-Form">
+            
+          <HubspotForm
+            portalId='44193624'
+            formId='ce3e3a7a-d7a8-4703-8105-76de2a8e03a9'
+            onSubmit={() => console.log('Submit!')}
+            onReady={(form) => console.log('Form ready!')}
+            loading={<div>Loading...</div>}
+            
+            />
+
+
           </Div>
         </Div>
       </Div>
@@ -80,6 +59,8 @@ export default function ContactPage() {
           title="Google Map"
         />
       </Div>
+
+
       <Spacing lg="50" md="40" />
     </>
   );

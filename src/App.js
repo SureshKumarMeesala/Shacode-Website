@@ -27,6 +27,7 @@ import ServiceDetailsPageWordpress from './components/Pages/ServiceDetailsPageWo
 import ServiceDetailsPageDigitalMarketing from './components/Pages/ServiceDetailsPageDigitalMarketing';
 
 import './ShaCode.css';
+import FreeConsultationPage from './components/Pages/FreeConsultationPage';
 
 function App() {
   return (
@@ -89,6 +90,10 @@ function App() {
           <Route
             path="case-study-showcase"
             element={<CaseStudyShowcaseHome />}
+          />
+           <Route
+            path="free-consultation"
+            element={<FreeConsultationPage />}
           />
         </Route>
         <Route path="*" element={<ErrorPage />} />

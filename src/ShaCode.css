@@ -30,3 +30,7 @@ img.Footer-Logo {
     white-space: pre-wrap;
     background: red !important;
 }
+
+.HubspotMeeting{
+    margin-top: -20px !important;
+}

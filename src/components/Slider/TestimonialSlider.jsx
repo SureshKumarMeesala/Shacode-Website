@@ -4,41 +4,48 @@ import { Icon } from '@iconify/react';
 import Testimonial from '../Testimonial';
 import Div from '../Div';
 import Spacing from '../Spacing';
+
+import testimonialNew from '../../../src/SrcImages/testiminial.jpg'
+
+
+
+
+
 export default function TestimonialSlider() {
   const [nav1, setNav1] = useState();
   const [nav2, setNav2] = useState();
   const testimonialData = [
     {
-      testimonialThumb: '/images/testimonial_1.jpeg',
+      // testimonialThumb: '/images/testimonial_1.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '4',
-    },
-    {
-      testimonialThumb: '/images/testimonial_2.jpeg',
-      testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+        'Shacode transformed our online presence. Their expertise in web development, SEO, and digital marketing is truly exceptional. We are impressed by their commitment to quality and their unique blend of technology and spirituality. Shacode is more than a service provider; they are a trusted partner in our digital success.',
+      avatarName: 'Manoj',
+      avatarDesignation: 'Agency Manager',
       ratings: '5',
     },
     {
-      testimonialThumb: '/images/testimonial_3.jpeg',
+      // testimonialThumb: '/images/testimonial_2.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
+        'Choosing Shacode was one of the best decisions we made for our business. Their teams experience shines through in every project they tackle. Their websites are not just visually stunning but also incredibly functional. Their digital marketing strategies have boosted our online reach, and their dedication is unmatched.',
+      avatarName: 'Ashok',
+      avatarDesignation: '',
+      ratings: '5',
+    },
+    {
+      // testimonialThumb: '/images/testimonial_3.jpeg',
+      testimonialText:
+        'As a client of Shacode, I can confidently say that they are masters of their craft. They have a deep understanding of web development, SEO, and digital marketing, and they have consistently delivered outstanding results. Their name spiritual inspiration resonates in their work, and the results truly exceed expectations.',
+      avatarName: 'Ajay',
+      avatarDesignation: 'All Fix Automotive',
       ratings: '4.5',
     },
     {
-      testimonialThumb: '/images/testimonial_1.jpeg',
+      // testimonialThumb: '/images/testimonial_1.jpeg',
       testimonialText:
-        'I wish I would have thought of it first. Creative agency is the most tech valuable business resource we have ever purchased. Dude your stuff  is the bomb! eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt to the explicabo.',
-      avatarName: 'Ahon Monsery',
-      avatarDesignation: 'CEO AT TECH',
-      ratings: '3.5',
+        'I have had the privilege of working with Shacode on several projects, and each time they have exceeded my expectations. Their team knowledge, attention to detail, and commitment to delivering results make them stand out. Shacode is not just a service provider; they are a partner in success.',
+      avatarName: 'Harish',
+      avatarDesignation: '',
+      ratings: '4.5',
     },
   ];
   const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
@@ -90,7 +97,7 @@ export default function TestimonialSlider() {
                   <Div className="slider-nav_item" key={index}>
                     <Div className="cs-rotate_img">
                       <Div className="cs-rotate_img_in">
-                        <img src={item.testimonialThumb} alt="Thumb" />
+                        <img src={testimonialNew} alt="Thumb" />
                       </Div>
                     </Div>
                   </Div>

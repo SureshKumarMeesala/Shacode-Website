@@ -12,11 +12,14 @@ import HubspotForm from 'react-hubspot-form'
 
 
 
+
 export default function ContactPage() {
   pageTitle('Contact Us');
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+
   return (
     <>
       <PageHeading
@@ -58,7 +61,10 @@ export default function ContactPage() {
           allowFullScreen
           title="Google Map"
         />
+        
       </Div>
+
+
 
 
       <Spacing lg="50" md="40" />

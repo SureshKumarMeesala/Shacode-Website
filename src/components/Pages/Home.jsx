@@ -110,7 +110,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="UI/UX Developmeent"
-                    link="/service/service-details"
+                    link="/service"
                     src="/images/service_1.jpeg"
                     alt="Service"
                   />
@@ -120,7 +120,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                   <Card
                     title="React.js UI Development"
-                    link="/service/service-details"
+                    link="/service"
                     src="/images/service_2.jpeg"
                     alt="Service"
                   />
@@ -129,7 +129,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                 <Card
                     title="Wordpress Websites"
-                    link="/service/service-details"
+                    link="/service"
                     src="/images/service_3.jpeg"
                     alt="Service"
                   />
@@ -139,7 +139,7 @@ export default function Home() {
                 <Div className="col-lg-3 col-sm-6">
                 <Card
                     title="Digital Marketing"
-                    link="/service/service-details"
+                    link="/service"
                     src="/images/service_4.jpeg"
                     alt="Service"
                   />

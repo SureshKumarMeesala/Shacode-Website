@@ -186,19 +186,18 @@ export default function PortfolioPage() {
 
 
       <Div className="container">
-        <img src="/images/portfolio_details_1.jpeg" alt="Details" className="cs-radius_15 w-100" />
+        <img src="/images/portfolio_1.webp" alt="Details" className="cs-radius_15 w-100" />
         <Spacing lg='90' md='40'/>
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading 
-              title='Graffiti wall artwork' 
+              title='CAV Assessment App' 
               subtitle='Creative' 
             >
               <Spacing lg='40' md='20'/>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium voltire doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p>Cav Assessment is a Route Assessment tool to manage Auto Pilot Vehicle I worked on this project for as a Front-End Developer.</p>
               <Spacing lg='10' md='10'/>
-              <p>Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
-            </SectionHeading>
+             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-lg-1">
             <Spacing lg='60' md='40'/>
@@ -207,7 +206,7 @@ export default function PortfolioPage() {
             <Div className="row">
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Category:</h3>
-                <p className='cs-m0'>Artwork</p>
+                <p className='cs-m0'>Web App</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
@@ -217,17 +216,12 @@ export default function PortfolioPage() {
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Software:</h3>
-                <p className='cs-m0'>Adobe Illustrator</p>
-                <Spacing lg='30' md='30'/>
-              </Div>
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Dated:</h3>
-                <p className='cs-m0'>14-Aug-2022</p>
+                <p className='cs-m0'>React Js</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Client:</h3>
-                <p className='cs-m0'>Andreo Bowla</p>
+                <p className='cs-m0'>ICAV Tech</p>
                 <Spacing lg='30' md='30'/>
               </Div>
             </Div>
@@ -238,18 +232,17 @@ export default function PortfolioPage() {
 
 
       <Div className="container">
-        <img src="/images/portfolio_details_1.jpeg" alt="Details" className="cs-radius_15 w-100" />
+        <img src="/images/portfolio_2.webp" alt="Details" className="cs-radius_15 w-100" />
         <Spacing lg='90' md='40'/>
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading 
-              title='Graffiti wall artwork' 
+              title='Cav GUI App' 
               subtitle='Creative' 
             >
               <Spacing lg='40' md='20'/>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium voltire doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p>Cav GUI is a Building Electricity management tool to manage a building electricity in a single DashboardI worked on this project for as a Front-End Developer.</p>
               <Spacing lg='10' md='10'/>
-              <p>Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-lg-1">
@@ -259,7 +252,7 @@ export default function PortfolioPage() {
             <Div className="row">
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Category:</h3>
-                <p className='cs-m0'>Artwork</p>
+                <p className='cs-m0'>Web App</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
@@ -269,17 +262,12 @@ export default function PortfolioPage() {
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Software:</h3>
-                <p className='cs-m0'>Adobe Illustrator</p>
-                <Spacing lg='30' md='30'/>
-              </Div>
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Dated:</h3>
-                <p className='cs-m0'>14-Aug-2022</p>
+                <p className='cs-m0'>React Js</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Client:</h3>
-                <p className='cs-m0'>Andreo Bowla</p>
+                <p className='cs-m0'>ICAV Tech</p>
                 <Spacing lg='30' md='30'/>
               </Div>
             </Div>
@@ -289,18 +277,17 @@ export default function PortfolioPage() {
       </Div>
 
       <Div className="container">
-        <img src="/images/portfolio_details_1.jpeg" alt="Details" className="cs-radius_15 w-100" />
+        <img src="/images/allfix.jpg" alt="Details" className="cs-radius_15 w-100" />
         <Spacing lg='90' md='40'/>
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading 
-              title='Graffiti wall artwork' 
+              title='All Fix Automotive' 
               subtitle='Creative' 
             >
               <Spacing lg='40' md='20'/>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium voltire doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p>All Fix Automotive is a Austyralian Based Ccar Garrage Company. I developed this website in Wordpress.</p>
               <Spacing lg='10' md='10'/>
-              <p>Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-lg-1">
@@ -310,27 +297,22 @@ export default function PortfolioPage() {
             <Div className="row">
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Category:</h3>
-                <p className='cs-m0'>Artwork</p>
+                <p className='cs-m0'>Website</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Location:</h3>
-                <p className='cs-m0'>United Kindom</p>
+                <p className='cs-m0'>Australia</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Software:</h3>
-                <p className='cs-m0'>Adobe Illustrator</p>
-                <Spacing lg='30' md='30'/>
-              </Div>
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Dated:</h3>
-                <p className='cs-m0'>14-Aug-2022</p>
+                <p className='cs-m0'>Wordpress</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Client:</h3>
-                <p className='cs-m0'>Andreo Bowla</p>
+                <p className='cs-m0'>All Fix Automotive </p>
                 <Spacing lg='30' md='30'/>
               </Div>
             </Div>
@@ -340,18 +322,17 @@ export default function PortfolioPage() {
       </Div>
 
       <Div className="container">
-        <img src="/images/portfolio_details_1.jpeg" alt="Details" className="cs-radius_15 w-100" />
+        <img src="/images/portfolio_3.jpg" alt="Details" className="cs-radius_15 w-100" />
         <Spacing lg='90' md='40'/>
         <Div className="row">
           <Div className="col-lg-6">
             <SectionHeading 
-              title='Graffiti wall artwork' 
+              title='Solid Online Website' 
               subtitle='Creative' 
             >
               <Spacing lg='40' md='20'/>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium voltire doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+              <p>This is the Solid Online Company Website one of my best works.</p>
               <Spacing lg='10' md='10'/>
-              <p>Ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit.</p>
             </SectionHeading>
           </Div>
           <Div className="col-lg-5 offset-lg-1">
@@ -361,27 +342,22 @@ export default function PortfolioPage() {
             <Div className="row">
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Category:</h3>
-                <p className='cs-m0'>Artwork</p>
+                <p className='cs-m0'>Websote</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Location:</h3>
-                <p className='cs-m0'>United Kindom</p>
+                <p className='cs-m0'>Europe</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
                 <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Software:</h3>
-                <p className='cs-m0'>Adobe Illustrator</p>
+                <p className='cs-m0'>Wordpress</p>
                 <Spacing lg='30' md='30'/>
               </Div>
               <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Dated:</h3>
-                <p className='cs-m0'>14-Aug-2022</p>
-                <Spacing lg='30' md='30'/>
-              </Div>
-              <Div className="col-6">
-                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Client:</h3>
-                <p className='cs-m0'>Andreo Bowla</p>
+                <h3 className='cs-accent_color cs-font_22 cs-font_18_sm cs-m0'>Employee:</h3>
+                <p className='cs-m0'>Solid Online </p>
                 <Spacing lg='30' md='30'/>
               </Div>
             </Div>

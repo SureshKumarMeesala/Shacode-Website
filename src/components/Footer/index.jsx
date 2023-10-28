@@ -22,19 +22,19 @@ export default function Footer({copyrightText, logoSrc, logoAlt, text}) {
   const serviceMenu = [
     {
       title: 'Website Developement',
-      href: '/service/service-details'
+      href: '/service'
     },
     {
       title: 'SEO',
-      href: '/service/service-details'
+      href: '/service'
     },
     {
       title: 'Digital Marketing',
-      href: '/service/service-details'
+      href: '/service'
     },
     {
       title: 'React UI Development',
-      href: '/service/service-details'
+      href: '/service'
     },
   ]
 
